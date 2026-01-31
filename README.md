@@ -16,6 +16,16 @@ manejo de eventos y validación de credenciales.
 - Mensajes de retroalimentación al usuario
 - Organización del código en clases y eventos
 
+## 🖼️ Capturas de la aplicación
+
+![Login UI](screenshots/login-ui.png)
+
+![Mostrar contraseña](screenshots/show-password.png)
+
+![Error de credenciales](screenshots/login-error.png)
+
+![Acceso correcto](screenshots/login-success.png)
+
 ## 🛠️ Tecnologías utilizadas
 
 - Java
