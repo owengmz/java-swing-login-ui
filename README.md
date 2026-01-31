@@ -1,50 +1,28 @@
+![Java](https://img.shields.io/badge/Language-Java-blue)
+![Swing](https://img.shields.io/badge/Framework-Swing-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 # Java Swing Login UI
 
-Proyecto académico desarrollado en Java como parte de la carrera
+Proyecto académico desarrollado en **Java Swing** como parte de la carrera  
 **Tecnicatura en Desarrollo de Software – Universidad de La Punta**.
 
-El objetivo del proyecto es implementar una interfaz gráfica de inicio de sesión
-utilizando **Java Swing**, aplicando conceptos básicos de programación orientada a objetos,
-manejo de eventos y validación de credenciales.
+El objetivo del proyecto es implementar una interfaz gráfica de inicio de sesión,
+aplicando conceptos fundamentales de programación orientada a objetos,
+manejo de eventos y validación de datos.
 
-## 🚀 Funcionalidades
+---
 
-- Interfaz gráfica desarrollada con Java Swing
-- Campo de usuario y contraseña
-- Mostrar y ocultar contraseña
-- Validación de credenciales
-- Mensajes de retroalimentación al usuario
-- Organización del código en clases y eventos
+## 🚀 Descripción
 
-## 🖼️ Capturas de la aplicación
+Aplicación de escritorio desarrollada con Java Swing que permite al usuario
+ingresar credenciales (usuario y contraseña), validarlas y recibir retroalimentación
+visual según el resultado del proceso de autenticación.
 
-![Login UI](screenshots/login-ui.png)
+El proyecto está enfocado en reforzar lógica, estructura del código
+y comportamiento dinámico de la interfaz.
 
-### 🔐 Pantalla de inicio de sesión
-
-Interfaz gráfica principal desarrollada con Java Swing.  
-Permite ingresar usuario y contraseña de forma clara e intuitiva.
-
-![Mostrar contraseña](screenshots/show-password.png)
-
-### 👁️ Mostrar contraseña
-
-Funcionalidad que permite mostrar u ocultar la contraseña utilizando
-eventos y propiedades del componente `JPasswordField`.
-
-![Error de credenciales](screenshots/login-error.png)
-
-### ❌ Validación de credenciales
-
-El sistema valida los datos ingresados y muestra mensajes de error
-cuando las credenciales no son correctas.
-
-![Acceso correcto](screenshots/login-success.png)
-
-### ✅ Acceso correcto
-
-Cuando el usuario y la contraseña son válidos, el sistema confirma
-el acceso mediante un mensaje de bienvenida.
+---
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -52,22 +30,57 @@ el acceso mediante un mensaje de bienvenida.
 - Java Swing
 - NetBeans IDE
 
-## 📚 Contexto académico
+---
 
-Este proyecto fue realizado con fines educativos para afianzar:
+## 🚀 Funcionalidades
 
-- Manejo de componentes Swing
-- Eventos y listeners
-- Lógica condicional
-- Buenas prácticas iniciales en Java
+- Interfaz gráfica desarrollada con Java Swing
+- Campo de usuario y contraseña
+- Mostrar y ocultar contraseña
+- Validación de credenciales
+- Mensajes de éxito y error al usuario
+- Manejo de eventos con `ActionListener`
 
-## ▶️ Ejecución
+---
 
-1. Clonar el repositorio
-2. Abrir el proyecto en NetBeans
-3. Ejecutar la clase principal `VENTANAS`
+## 🖼️ Capturas de la aplicación
 
-## 📌 Estado del proyecto
+### 🔐 Pantalla de inicio de sesión
 
-✔ Completado  
-📈 Posible mejora futura: conexión a base de datos y autenticación real
+Interfaz gráfica principal que permite ingresar usuario y contraseña de forma clara e intuitiva.
+
+![Login UI](screenshots/login-ui.png)
+
+---
+
+### 👁️ Mostrar contraseña
+
+Funcionalidad que permite mostrar u ocultar la contraseña utilizando eventos
+y propiedades del componente `JPasswordField`.
+
+![Mostrar contraseña](screenshots/show-password.png)
+
+---
+
+### ❌ Validación de credenciales
+
+Cuando los datos ingresados no son correctos, el sistema muestra un mensaje de error.
+
+![Error de credenciales](screenshots/login-error.png)
+
+---
+
+### ✅ Acceso correcto
+
+Si las credenciales son válidas, el sistema confirma el acceso mediante un mensaje de bienvenida.
+
+![Acceso correcto](screenshots/login-success.png)
+
+---
+
+## ▶️ Cómo ejecutar el proyecto
+
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/owengmz/java-swing-login-ui.git
+   ```
