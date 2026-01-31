@@ -1,2 +1,43 @@
-# java-swing-login-ui
-trabajo practico inicio de sesion co
+# Java Swing Login UI
+
+Proyecto académico desarrollado en Java como parte de la carrera
+**Tecnicatura en Desarrollo de Software – Universidad de La Punta**.
+
+El objetivo del proyecto es implementar una interfaz gráfica de inicio de sesión
+utilizando **Java Swing**, aplicando conceptos básicos de programación orientada a objetos,
+manejo de eventos y validación de credenciales.
+
+## 🚀 Funcionalidades
+
+- Interfaz gráfica desarrollada con Java Swing
+- Campo de usuario y contraseña
+- Mostrar y ocultar contraseña
+- Validación de credenciales
+- Mensajes de retroalimentación al usuario
+- Organización del código en clases y eventos
+
+## 🛠️ Tecnologías utilizadas
+
+- Java
+- Java Swing
+- NetBeans IDE
+
+## 📚 Contexto académico
+
+Este proyecto fue realizado con fines educativos para afianzar:
+
+- Manejo de componentes Swing
+- Eventos y listeners
+- Lógica condicional
+- Buenas prácticas iniciales en Java
+
+## ▶️ Ejecución
+
+1. Clonar el repositorio
+2. Abrir el proyecto en NetBeans
+3. Ejecutar la clase principal `VENTANAS`
+
+## 📌 Estado del proyecto
+
+✔ Completado  
+📈 Posible mejora futura: conexión a base de datos y autenticación real
