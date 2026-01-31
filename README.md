@@ -20,11 +20,31 @@ manejo de eventos y validación de credenciales.
 
 ![Login UI](screenshots/login-ui.png)
 
+### 🔐 Pantalla de inicio de sesión
+
+Interfaz gráfica principal desarrollada con Java Swing.  
+Permite ingresar usuario y contraseña de forma clara e intuitiva.
+
 ![Mostrar contraseña](screenshots/show-password.png)
+
+### 👁️ Mostrar contraseña
+
+Funcionalidad que permite mostrar u ocultar la contraseña utilizando
+eventos y propiedades del componente `JPasswordField`.
 
 ![Error de credenciales](screenshots/login-error.png)
 
+### ❌ Validación de credenciales
+
+El sistema valida los datos ingresados y muestra mensajes de error
+cuando las credenciales no son correctas.
+
 ![Acceso correcto](screenshots/login-success.png)
+
+### ✅ Acceso correcto
+
+Cuando el usuario y la contraseña son válidos, el sistema confirma
+el acceso mediante un mensaje de bienvenida.
 
 ## 🛠️ Tecnologías utilizadas
 
