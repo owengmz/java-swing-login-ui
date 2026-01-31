@@ -84,3 +84,7 @@ Si las credenciales son válidas, el sistema confirma el acceso mediante un mens
    ```bash
    git clone https://github.com/owengmz/java-swing-login-ui.git
    ```
+2. Abrir el proyecto en NetBeans IDE.
+
+3. Compilar y ejecutar la clase principal:
+   VENTANAS.java
